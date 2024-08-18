@@ -6,7 +6,7 @@
 
 - 主要使用字体：noto-fonts，安装了 [noto-fonts](https://archlinux.org/packages/extra/any/noto-fonts/) 和 [noto-fonts-cjk](https://archlinux.org/packages/extra/any/noto-fonts-cjk/)；
 
-- 等宽字体：更纱黑体，安装 [ttf-sarasa-gothic](https://archlinux.org/packages/extray/any/ttf-sarasa-gothic/)，更纱黑体的中文字型和 noto-fonts 的中文黑体字型其实都来自于思源黑体，所以事实上字型是没有区别的，但是 Arch 官方仓库打包的 noto-fonts-cjk 包的中文黑体字型缺少了一些变体，比如更多的字重和斜体，而更纱黑体是有多字重和斜体支持的，所以最终我还是选择了更纱黑体作为主要的等宽字体；
+- 等宽字体：更纱黑体，安装 [ttf-sarasa-gothic](https://archlinux.org/packages/extra/any/ttf-sarasa-gothic/)，更纱黑体的中文字型和 noto-fonts 的中文黑体字型其实都来自于思源黑体，所以事实上字型是没有区别的，但是 Arch 官方仓库打包的 noto-fonts-cjk 包的中文黑体字型缺少了一些变体，比如更多的字重和斜体，而更纱黑体是有多字重和斜体支持的，所以最终我还是选择了更纱黑体作为主要的等宽字体；
 
 - 图标字体：nerd-fonts，安装 [ttf-nerd-fonts-mono](https://archlinux.org/packages/extra/any/ttf-nerd-fonts-symbols-mono/)，作为等宽字体的 fallback 字体，这样无需为字体打补丁也可以用上图标字体，只需在对应软件的字体配置中指定为 monospace 即可；
 
